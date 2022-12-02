@@ -1,0 +1,48 @@
+body{
+    background-color: #2c363f;
+    font-weight: bold;
+    box-sizing: border-box ;
+    
+}
+
+#cars
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width:100%
+}
+
+#cars td
+{
+    text-align: center;
+    
+    
+}
+
+#cars td, #cars th
+{
+    border:1px solid black;
+    padding: 8px;
+    color:#fff;
+  
+}
+
+#cars tr:nth-child(even)
+{
+    background-color: #1f262c;
+}
+
+#cars tr:hover
+{
+    background-color:#1f262c;
+}
+
+#cars th
+{
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: blue;
+    color:white;
+}
